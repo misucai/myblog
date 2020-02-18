@@ -5,7 +5,22 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: directory
-  path: config/_default/content
+  path: content/posts
+  label: etc
+  create: all
+  match: etc/*
+- type: directory
+  path: content/posts
+  label: compiler
+  create: all
+  match: compiler/*
+- type: directory
+  path: content/posts
+  label: GnuLinux
+  create: all
+  match: GnuLinux/*
+- type: directory
+  path: content
   label: Pages
   create: all
   match: "*"
