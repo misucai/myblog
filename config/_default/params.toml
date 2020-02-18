@@ -8,9 +8,9 @@ useFaviconGenerator = true # https://www.favicon-generator.org/
 meta_image = "/images/whoami/avatar.jpg"
 
 authorImage = "/images/whoami/avatar.jpg"
-author = "victor"
+author = "BaderME"
 
-themeOptions = ["dark", "light", "hacker", "solarized", "kimbie"] # select options for site color theme
+themeOptions = [ "light", "dark","hacker", "solarized", "kimbie"] # select options for site color theme
 notAllowedTypesInHome = ["contact", "talks", "about", "showcase"] # not allowed page types in home page. type can be set in front matter or default to folder name.
 notAllowedTypesInHomeSidebar = ["about", "archive", "showcase"] # not allowed page types in home page sidebar(recent post titles).
 notAllowedTypesInArchive = ["about", "talks", "showcase"] # not allowed page types in archive page
@@ -26,7 +26,7 @@ enableBreadcrumb = true # breadcrumb for list, single page
 enableSearch = true # site search with Fuse
 enableSearchHighlight = true # when true, search keyword will be highlighted
 enableGoToTop = true # scroll to top
-enableWhoami = true # at the end of single page
+enableWhoami = false # at the end of single page
 summaryShape = "classic" # card, classic, compact
 archiveGroupByDate = "2006" # "2006-01": group by month, "2006": group by year
 archivePaginate = 13 # items per page
@@ -44,37 +44,37 @@ organization = "IAUN"
 link = "https://t.me/gictorbit"
 
 # sidebar
-enableBio = true # home page sidebar
+enableBio = false # home page sidebar
 enableSidebar = true # Set to false to create the full width of the content.
 enableSidebarTags = true # if you want to use tags.
 enableSidebarSeries = true
 enableSidebarCategories = true
-enableHomeSidebarTitles = true
+enableHomeSidebarTitles = false
 enableListSidebarTitles = true
-enableToc = true # single page table of contents, you can replace this param to toc(toc = true)
+enableToc = false # single page table of contents, you can replace this param to toc(toc = true)
 sidebarPosition = "right" # bio, profile component layout position
 searchResultPosition = "side" # side, main
 hideToc = false # Hide or Show toc
 tocPosition = "inner" # inner, outer
-enableTocSwitch = true # single page table of contents visibility switch
+enableTocSwitch = false # single page table of contents visibility switch
 itemsPerCategory = 5 # maximum number of posts shown in the sidebar.
 
 
 # footer
 showPoweredBy = false # show footer text: Powered by Hugo and Zzo theme
-showFeedLinks = true # RSS Feed 
-showSocialLinks = true # email, facebook, twitter ...
-enableLangChange = true # show button at bottom left of footer.
+showFeedLinks = false # RSS Feed 
+showSocialLinks = false # email, facebook, twitter ...
+enableLangChange = false # show button at bottom left of footer.
 
 # service
 baiduAnalytics = "" # alternative of google analytics
 enableBusuanzi = false # if set true, total page view, total unique visitors show up in the footer.
 busuanziSiteUV = false # unique visitors (total number of visitors)
 busuanziSitePV = false # site total page view count
-busuanziPagePV = true # post view count
+busuanziPagePV = false # post view count
 
 # comment
-enableComment = true
+enableComment = false
 disqus_shortname = "gictor" 
 commento = false
 
