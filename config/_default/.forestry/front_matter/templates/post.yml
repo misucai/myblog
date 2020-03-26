@@ -23,3 +23,5 @@ fields:
 - type: file
   name: meta_image
   label: meta_image
+pages:
+- content/posts/etc/طراحی-های-اپلیکیشن-موبایل-معرفی-سایت.md
